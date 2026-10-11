@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <a href="https://elcanismayilov.com"><img src="https://img.shields.io/badge/Website-elcanismayilov.com-1f6feb?style=flat-square&labelColor=0d1117" alt="Website" /></a>
-  <a href="mailto:me@elcanismayilov.com"><img src="https://img.shields.io/badge/Email-me@elcanismayilov.com-1f6feb?style=flat-square&labelColor=0d1117" alt="Email" /></a>
-  <a href="mailto:elcanismayilov@proton.me"><img src="https://img.shields.io/badge/Proton-elcanismayilov@proton.me-1f6feb?style=flat-square&labelColor=0d1117&logo=protonmail&logoColor=white" alt="Proton Mail" /></a>
-  <img src="https://img.shields.io/badge/Location-Baku%2C%20Azerbaijan-1f6feb?style=flat-square&labelColor=0d1117" alt="Location" />
+  <a href="https://elcanismayilov.com"><img height="48" src="assets/badge-website.svg" alt="Website: elcanismayilov.com" /></a>
+  <a href="mailto:me@elcanismayilov.com"><img height="48" src="assets/badge-email.svg" alt="Email: me@elcanismayilov.com" /></a>
+  <a href="mailto:elcanismayilov@proton.me"><img height="48" src="assets/badge-proton.svg" alt="Proton: elcanismayilov@proton.me" /></a>
+  <img height="48" src="assets/badge-location.svg" alt="Location: Baku, Azerbaijan" />
 </p>
 
 <br/>
@@ -135,5 +135,5 @@ Full-Stack Engineer specializing in **real-time systems** and **hardware-softwar
 </p>
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,45:0f2a3d,100:0d1117&height=110&section=footer" alt="" />
+  <img width="100%" src="assets/footer.svg" alt="Thanks for visiting" />
 </p>
