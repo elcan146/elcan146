@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <radialGradient id="space" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#0f2a4a"/>
+      <stop offset="45%" stop-color="#0a1626"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+    <radialGradient id="nebulaA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8957e5" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#8957e5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e6edf3"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a5d6ff"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="haze" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+
+    <g id="field" fill="#ffffff" filter="url(#soft)">
+      <circle cx="80" cy="40" r="1.6"/>
+      <circle cx="170" cy="220" r="1.2"/>
+      <circle cx="240" cy="90" r="1.8"/>
+      <circle cx="310" cy="260" r="1.3"/>
+      <circle cx="360" cy="30" r="1.1"/>
+      <circle cx="420" cy="180" r="1.5"/>
+      <circle cx="470" cy="70" r="1.0"/>
+      <circle cx="520" cy="240" r="1.7"/>
+      <circle cx="560" cy="110" r="0.9"/>
+      <circle cx="640" cy="200" r="1.0"/>
+      <circle cx="690" cy="50" r="1.6"/>
+      <circle cx="740" cy="270" r="1.2"/>
+      <circle cx="790" cy="130" r="1.4"/>
+      <circle cx="850" cy="20" r="1.1"/>
+      <circle cx="900" cy="210" r="1.8"/>
+      <circle cx="960" cy="80" r="1.2"/>
+      <circle cx="1010" cy="250" r="1.5"/>
+      <circle cx="1070" cy="140" r="1.0"/>
+      <circle cx="1120" cy="40" r="1.7"/>
+      <circle cx="1160" cy="230" r="1.3"/>
+      <circle cx="130" cy="150" r="1.0"/>
+      <circle cx="280" cy="170" r="0.9"/>
+      <circle cx="390" cy="120" r="1.2"/>
+      <circle cx="610" cy="20" r="1.1"/>
+      <circle cx="580" cy="280" r="1.3"/>
+      <circle cx="820" cy="250" r="1.0"/>
+      <circle cx="1040" cy="30" r="1.2"/>
+      <circle cx="1100" cy="290" r="1.0"/>
+      <circle cx="40" cy="270" r="1.4"/>
+      <circle cx="200" cy="10" r="1.0"/>
+    </g>
+
+    <style>
+      .warp { transform-box: view-box; transform-origin: 600px 150px; animation: warp 6s linear infinite; opacity: 0; }
+      .d1 { animation-delay: 0s; }
+      .d2 { animation-delay: -1.5s; }
+      .d3 { animation-delay: -3s; }
+      .d4 { animation-delay: -4.5s; }
+      @keyframes warp {
+        0%   { transform: scale(0.15); opacity: 0; }
+        15%  { opacity: 0.9; }
+        80%  { opacity: 1; }
+        100% { transform: scale(3); opacity: 0; }
+      }
+      .tw { animation: twinkle 3.5s ease-in-out infinite; }
+      .tw2 { animation: twinkle 4.8s ease-in-out infinite -2s; }
+      @keyframes twinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.9; } }
+      .neb { transform-box: view-box; transform-origin: 600px 150px; animation: drift 18s ease-in-out infinite alternate; }
+      @keyframes drift { from { transform: scale(1) rotate(0deg); } to { transform: scale(1.15) rotate(8deg); } }
+      .title { opacity: 0; animation: rise 1.6s ease-out 0.3s forwards; }
+      .sub { opacity: 0; animation: rise 1.6s ease-out 0.9s forwards; }
+      @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#space)"/>
+
+  <g class="neb">
+    <ellipse cx="380" cy="120" rx="320" ry="140" fill="url(#nebulaB)"/>
+    <ellipse cx="820" cy="180" rx="360" ry="150" fill="url(#nebulaA)"/>
+  </g>
+
+  <g fill="#c9d1d9">
+    <g class="tw">
+      <circle cx="55" cy="95" r="0.8"/><circle cx="215" cy="265" r="0.7"/><circle cx="455" cy="15" r="0.8"/>
+      <circle cx="665" cy="285" r="0.7"/><circle cx="935" cy="45" r="0.8"/><circle cx="1185" cy="165" r="0.7"/>
+      <circle cx="335" cy="205" r="0.6"/><circle cx="775" cy="95" r="0.6"/><circle cx="1055" cy="205" r="0.7"/>
+    </g>
+    <g class="tw2">
+      <circle cx="145" cy="60" r="0.7"/><circle cx="295" cy="125" r="0.6"/><circle cx="505" cy="295" r="0.7"/>
+      <circle cx="715" cy="15" r="0.6"/><circle cx="885" cy="285" r="0.7"/><circle cx="1135" cy="95" r="0.8"/>
+      <circle cx="25" cy="185" r="0.6"/><circle cx="985" cy="145" r="0.6"/><circle cx="545" cy="55" r="0.6"/>
+    </g>
+  </g>
+
+  <g transform="rotate(0 600 150)"><use xlink:href="#field" class="warp d1"/></g>
+  <g transform="rotate(90 600 150)"><use xlink:href="#field" class="warp d2"/></g>
+  <g transform="rotate(180 600 150)"><use xlink:href="#field" class="warp d3"/></g>
+  <g transform="rotate(270 600 150)"><use xlink:href="#field" class="warp d4"/></g>
+
+  <ellipse cx="600" cy="165" rx="400" ry="70" fill="#05070d" opacity="0.55" filter="url(#haze)"/>
+
+  <g class="title">
+    <text x="600" y="152" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="1" fill="url(#title)" filter="url(#glow)">Elcan İsmayılov</text>
+  </g>
+  <g class="sub">
+    <text x="600" y="200" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" letter-spacing="2" fill="#8b949e">FULL-STACK ENGINEER  ·  REAL-TIME SYSTEMS  ·  RF AND SIGNAL PROCESSING</text>
+  </g>
+</svg>

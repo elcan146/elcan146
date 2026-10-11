@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,55:0f2a3d,100:1f6feb&height=200&section=header&text=Elcan%20%C4%B0smay%C4%B1lov&fontSize=52&fontColor=e6edf3&fontAlignY=38&animation=fadeIn&desc=Full-Stack%20Engineer%20%E2%80%94%20Real-Time%20Systems%2C%20RF%20and%20Signal%20Processing&descSize=17&descAlignY=60&descColor=8b949e" alt="Elcan İsmayılov" />
+  <img width="100%" src="assets/header.svg" alt="Elcan İsmayılov" />
 </p>
 
 <p align="center">
