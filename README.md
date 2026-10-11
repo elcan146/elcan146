@@ -111,7 +111,7 @@ Full-Stack Engineer specializing in <b>real-time systems</b> and <b>hardware-sof
 | Degree | Institution | Period |
 | :--- | :--- | :--- |
 | **M.Sc.** Information Security of Telecommunication Systems | Azerbaijan Technical University | 2024 – 2026 |
-| **B.Sc.** Telecommunication Engineering | Azerbaijan National Aviation Academy | 2020 – 2024 |
+| **B.Sc.** Telecommunication Engineering | National Aviation Academy | 2020 – 2024 |
 | Artificial Intelligence Engineering (Bootcamp) | Div Academy | 2025 – 2026 |
 | Java Foundation (Bootcamp) | Code Space | 2023 – 2024 |
 
