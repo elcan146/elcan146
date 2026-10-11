@@ -17,7 +17,9 @@
 
 ### About
 
-Full-Stack Engineer specializing in **real-time systems** and **hardware-software integration**. Background in telecommunication engineering and information security, with hands-on experience in digital signal processing, system architecture and modern user interfaces. I build end-to-end data pipelines and monitoring platforms, and I work day to day on broadcast and satellite infrastructure as a Senior Engineer at AzTV.
+<p align="justify">
+Full-Stack Engineer specializing in <b>real-time systems</b> and <b>hardware-software integration</b>. Background in telecommunication engineering and information security, with hands-on experience in digital signal processing, system architecture and modern user interfaces. I build end-to-end data pipelines and monitoring platforms, and I work day to day on broadcast and satellite infrastructure as a Senior Engineer at AzTV.
+</p>
 
 <br/>
 
@@ -26,64 +28,54 @@ Full-Stack Engineer specializing in **real-time systems** and **hardware-softwar
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/elcan146/CGrep-v3">CGrep</a></h4>
-      <sub>Real-time SDR radio monitoring platform</sub>
-      <ul>
-        <li>RTL-SDR sweeps of the FM and DAB+ bands with live WFM demodulation and RDS decoding.</li>
-        <li>Remote collector agents stream sweeps to a central FastAPI and PostgreSQL backend.</li>
-        <li>3D tactical dashboard in React Three Fiber, with live spectrum over WebSocket.</li>
-        <li>Self-hosted Ollama assistant, WebAuthn passkeys, JWT and RBAC.</li>
-        <li>Desktop GUI with spectrum and waterfall views, WhatsApp alerts, S3 backups, PDF reports and an EN/AZ interface.</li>
-        <li>In deployment: 7 regional SDRs, ~700 measurements/s, ~2.5M records/day, 75 ms dashboard queries.</li>
-      </ul>
-      <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/FastAPI-161b22?style=flat-square&logo=fastapi&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-161b22?style=flat-square&logo=postgresql&logoColor=white" />
-      <img src="https://img.shields.io/badge/React%2019-161b22?style=flat-square&logo=react&logoColor=white" />
-      <img src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/Three.js-161b22?style=flat-square&logo=threedotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/PyQt6-161b22?style=flat-square&logo=qt&logoColor=white" />
+      <h3><a href="https://github.com/elcan146/CGrep-v3">CGrep</a></h3>
+      <p><em>Real-time SDR radio monitoring platform</em></p>
+      <p align="justify">A distributed software-defined radio monitoring network. RTL-SDR collectors sweep the FM and DAB+ bands, demodulate audio and decode RDS, then stream results to a central FastAPI and PostgreSQL backend. Operators work in a 3D tactical dashboard built with React Three Fiber, backed by a self-hosted Ollama assistant, WebAuthn passkeys, RBAC, WhatsApp alerts and S3 backups.</p>
+      <p align="justify"><b>In production:</b> 7 regional SDRs, ~700 measurements/s, ~2.5M records/day and 75 ms dashboard queries.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-161b22?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-161b22?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-161b22?style=flat-square&logo=react&logoColor=white" />
+      </p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/elcan146/CClip">CClip</a></h4>
-      <sub>AI-powered cinematic clip engine</sub>
-      <ul>
-        <li>Local Whisper transcription, with Gemini choosing the key moments, titles and hooks.</li>
-        <li>9:16 reframe, karaoke-style ASS subtitles (including Azerbaijani), Edge-TTS voiceover and music mixing.</li>
-        <li>FFmpeg rendering, automated YouTube upload and an analytics dashboard in a PyQt6 desktop app.</li>
-      </ul>
-      <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Gemini-161b22?style=flat-square&logo=googlegemini&logoColor=white" />
-      <img src="https://img.shields.io/badge/Whisper-161b22?style=flat-square&logo=openai&logoColor=white" />
-      <img src="https://img.shields.io/badge/FFmpeg-161b22?style=flat-square&logo=ffmpeg&logoColor=white" />
-      <img src="https://img.shields.io/badge/PyQt6-161b22?style=flat-square&logo=qt&logoColor=white" />
+      <h3><a href="https://github.com/elcan146/CClip">CClip</a></h3>
+      <p><em>AI-powered cinematic clip engine</em></p>
+      <p align="justify">An AI video automation engine that turns long-form footage into vertical short-form clips. Whisper transcribes locally with word-level timestamps, Gemini picks the strongest moments and writes titles and hooks, and FFmpeg renders a cinematic 9:16 cut with karaoke-style subtitles (including Azerbaijani), Edge-TTS voiceover and background music, all inside a PyQt6 desktop app.</p>
+      <p align="justify"><b>Pipeline:</b> transcribe, analyse, reframe, subtitle, mix, render and publish to YouTube.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Gemini-161b22?style=flat-square&logo=googlegemini&logoColor=white" />
+        <img src="https://img.shields.io/badge/Whisper-161b22?style=flat-square&logo=openai&logoColor=white" />
+        <img src="https://img.shields.io/badge/FFmpeg-161b22?style=flat-square&logo=ffmpeg&logoColor=white" />
+      </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/elcan146/radiogrep">radiogrep</a></h4>
-      <sub>RF jamming detection on the 433 MHz ISM band</sub>
-      <ul>
-        <li>Reduces each FFT window to five spectral features: power, flatness, noise floor, peak and RSSI.</li>
-        <li>A Random Forest classifies each window as clean or jammed, with live monitoring from an ADALM-Pluto or simulated input.</li>
-        <li>Runs end to end on synthetic IQ data and exports KPIs, ROC curves and an alarm log to Excel.</li>
-      </ul>
-      <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/scikit--learn-161b22?style=flat-square&logo=scikitlearn&logoColor=white" />
-      <img src="https://img.shields.io/badge/NumPy-161b22?style=flat-square&logo=numpy&logoColor=white" />
-      <img src="https://img.shields.io/badge/ADALM--Pluto-161b22?style=flat-square" />
+      <h3><a href="https://github.com/elcan146/radiogrep">radiogrep</a></h3>
+      <p><em>RF jamming detection on the 433 MHz ISM band</em></p>
+      <p align="justify">Real-time jamming detection for the 433 MHz ISM band. Each FFT window is reduced to five spectral features (average power, flatness, noise floor, peak power and RSSI), and a class-weighted Random Forest separates clean spectra from jammed ones. It monitors live from an ADALM-Pluto SDR or runs entirely on synthetic IQ data.</p>
+      <p align="justify"><b>Output:</b> KPIs, ROC curve and an alarm journal in a formatted Excel report.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/scikit--learn-161b22?style=flat-square&logo=scikitlearn&logoColor=white" />
+        <img src="https://img.shields.io/badge/NumPy-161b22?style=flat-square&logo=numpy&logoColor=white" />
+        <img src="https://img.shields.io/badge/ADALM--Pluto-161b22?style=flat-square" />
+      </p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/elcan146/GoW">Grails of War</a></h4>
-      <sub>Digital card game prototype</sub>
-      <ul>
-        <li>Simultaneous secret turns across three locations, best of three rounds.</li>
-        <li>Monorepo: a web client (React, Vite and Phaser) and a mobile client (React Native and Expo) share one pure-TypeScript game engine.</li>
-      </ul>
-      <img src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/React-161b22?style=flat-square&logo=react&logoColor=white" />
-      <img src="https://img.shields.io/badge/Phaser-161b22?style=flat-square" />
-      <img src="https://img.shields.io/badge/Expo-161b22?style=flat-square&logo=expo&logoColor=white" />
+      <h3><a href="https://github.com/elcan146/GoW">Grails of War</a></h3>
+      <p><em>Digital card game prototype</em></p>
+      <p align="justify">A digital card game that combines the simultaneous secret turns of Gwent with the three-location board of Marvel Snap. Each turn both players commit one card in secret and reveal together; the higher power at two of three locations takes the round, best of three. Web and mobile clients share a single pure-TypeScript engine.</p>
+      <p align="justify"><b>Clients:</b> React, Vite and Phaser on the web; React Native and Expo on mobile.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-161b22?style=flat-square&logo=react&logoColor=white" />
+        <img src="https://img.shields.io/badge/Phaser-161b22?style=flat-square" />
+        <img src="https://img.shields.io/badge/Expo-161b22?style=flat-square&logo=expo&logoColor=white" />
+      </p>
     </td>
   </tr>
 </table>
